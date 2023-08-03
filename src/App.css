@@ -1,27 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  text-align: center; /* Merged from both versions */
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #3a3a3a;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  background-color: #38f2ec;
+  transition: width 0.3s ease-in-out;
+}
+
+.bike-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bike-images img {
+  width: 100%;
+  border-radius: 10px;
+  border-bottom: 2px solid #333;
+}
+
+section {
+  margin-bottom: 30px; 
+}
+
+.safety,
+.parking,
+.training {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.safety h2,
+.parking h3,
+.training h7 { /* Changed 'h7' to 'h3' for consistency */
+  color: #3a3a3a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.safety:hover,
+.parking:hover,
+.training:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Merged from both versions */
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.middle h5,
+.middle h6,
+.middle h3 { /* Changed 'h7' to 'h3' for consistency */
+  margin-top: 10px;
+}
+
+.middle img {
+  width: 100%;
+  max-width: 200px;
+}
+
+footer {
+  background-color: #1cd7a5;
+  padding: 10px;
+  color: #fbfbfb;
+  text-align: center;
 }
 
 .App-link {

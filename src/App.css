@@ -1,38 +1,142 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Overall App Styles */
 .App {
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-image: url('https://i.pinimg.com/564x/89/42/e9/8942e9f1c836b47e0ea7785098176ea6.jpg');
+  /* Update the path to the image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Styles */
+main {
+  padding: 20px;
+}
+
+.specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+h2 {
+  color: #3a3a3a;
+  font-size: 24px;
+}
+
+h3 {
+  color: #3a3a3a;
+  font-size: 20px;
+}
+
+h4 {
+  color: #3a3a3a;
+  font-size: 18px;
+}
+
+.bike-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bike-images img {
+  width: 100%;
+}
+
+/* Safety, Parking, and Training Sections */
+.safety,
+.parking,
+.training {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.safety h5,
+.parking h6,
+.training h7 {
+  color: #3a3a3a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.middle > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle h5,
+.middle h6,
+.middle h7 {
+  margin-top: 10px;
+}
+
+.middle img {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #3a3a3a;
+  padding: 10px;
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer p {
+  margin: 0;
 }

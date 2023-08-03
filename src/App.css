@@ -1,10 +1,9 @@
-/* Reset some default styles */
+
 body {
   margin: 0;
   padding: 0;
 }
 
-/* Overall App Styles */
 .App {
   font-family: 'Helvetica', sans-serif;
   color: #333;
@@ -14,66 +13,21 @@ body {
   min-height: 100vh;
 }
 
-/* Header Styles */
-header {
-  background-image: url('https://i.pinimg.com/564x/89/42/e9/8942e9f1c836b47e0ea7785098176ea6.jpg');
-  /* Update the path to the image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
-  color: #fff;
-}
-
-header h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-nav li {
-  margin-right: 20px;
-}
-
-nav li:last-child {
-  margin-right: 0;
-}
-
-nav li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Main Styles */
 main {
   padding: 20px;
 }
 
-.specs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-h2 {
+h1 {
   color: #3a3a3a;
-  font-size: 24px;
-}
-
-h3 {
-  color: #3a3a3a;
-  font-size: 20px;
-}
-
-h4 {
-  color: #3a3a3a;
-  font-size: 18px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin: 40px 0;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  background-color: #38f2ec;
+  transition: width 0.3s ease-in-out;
 }
 
 .bike-images {
@@ -84,9 +38,14 @@ h4 {
 
 .bike-images img {
   width: 100%;
+  border-radius: 10px;
+  border-bottom: 2px solid #333;
 }
 
-/* Safety, Parking, and Training Sections */
+section {
+  margin-bottom: 30px; 
+}
+
 .safety,
 .parking,
 .training {
@@ -97,12 +56,25 @@ h4 {
   margin-bottom: 30px;
 }
 
-.safety h5,
-.parking h6,
+.safety h2,
+.parking h3,
 .training h7 {
   color: #3a3a3a;
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+.safety:hover,
+.parking:hover,
+.training:hover {
+  transform: scale(1.05);
+}
+
+
+.safety:hover,
+.parking:hover,
+.training:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .middle {
@@ -129,7 +101,6 @@ h4 {
   max-width: 200px;
 }
 
-/* Footer Styles */
 footer {
   background-color: #1cd7a5;
   padding: 10px;

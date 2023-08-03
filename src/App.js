@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <main>
         <section>
-         <h4>How to Roll</h4>
+         <h1>How to roll OR use our e-vehicles</h1>
          <div className="bike-images">
             <img src="https://i.pinimg.com/564x/19/0c/74/190c7408b47b1a2628d0946f63c20630.jpg" alt="Bike 1" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
             <img src="https://i.pinimg.com/564x/3c/b4/15/3cb4154fe9165ca8908eae3bab75af48.jpg" alt="Bike 2" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. </p>
-            <img src="https://i.pinimg.com/564x/d5/f9/d3/d5f9d3720bcfbfad8fbba0c13cbfd0ef.jpg" alt="Bike 3" />
+            <img src="https://i.pinimg.com/564x/b6/b2/4e/b6b24e1bcf6415c5bf50119bee5b7b9b.jpg" alt="Bike 3" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. </p>
           </div>
         </section>
@@ -24,14 +24,14 @@ function App() {
           <div className='middle'>
           <div className='safety'>
           <FontAwesomeIcon icon={faShield} />
-            <h5>Safety first</h5>
+            <h2>Safety first</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
             <img src="https://i.pinimg.com/564x/e3/96/1d/e3961dfc9b4f1d3a72f0a07d1e13a070.jpg"/>
           </div>
           <div className='parking'>
           <img src="https://i.pinimg.com/564x/1e/42/ae/1e42ae9142d3352a3745f7833502bc22.jpg"/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-            <h6>Parking</h6>
+            <h3>Parking</h3>
             <FontAwesomeIcon icon={faCar} />
           </div>
           <div className='training'>

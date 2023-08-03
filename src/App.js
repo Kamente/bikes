@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCar, faGraduationCap, faShield } from '@fortawesome/free-solid-svg-icons';
+import { faShield, faCar, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import './App.css';
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
             {/* Sub-section: Training */}
             <div className='training'>
               <FontAwesomeIcon icon={faGraduationCap} />
-              <h7>Training Mode</h7>
+              <h3>Training Mode</h3> {/* Changed 'h7' to 'h3' for consistency */}
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
               <img src="https://i.pinimg.com/564x/d4/ef/c4/d4efc4adc984d1838df62dc5beefd340.jpg" alt="Training Image" />
             </div>

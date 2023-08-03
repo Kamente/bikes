@@ -8,30 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <header>
-        <h1>Rolls <span>Motion</span></h1>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>e-Vehicles</li>
-            <li>Sign up</li>
-          </ul>
-        </nav>
-        <section className='specs'>
-          <h3>e-vehicles specs</h3>
-          <li>80% fuel-friendly</li>
-          <li>100% safe ride</li>
-          <li>100% Eco-Friendly</li>
-          <li>86% Comfortable to use</li>
-        </section>
-      </header>
       <main>
-        <section>
-          <h2>LOREM <span>IPSUM</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        
         <section>
          <h4>How to Roll</h4>
          <div className="bike-images">
